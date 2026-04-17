@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aishwarya | Software Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:'Poppins',sans-serif;
+  background:#0f172a;
+  color:#e2e8f0;
+  line-height:1.6;
+}
+
+header{
+  text-align:center;
+  padding:80px 20px;
+  background:linear-gradient(135deg,#7c3aed,#ec4899);
+}
+
+header h1{
+  font-size:48px;
+  font-weight:700;
+}
+
+header p{
+  margin-top:10px;
+  font-size:20px;
+  opacity:0.9;
+}
+
+header button{
+  margin-top:25px;
+  padding:12px 28px;
+  border:none;
+  border-radius:30px;
+  background:#fff;
+  color:#7c3aed;
+  font-weight:600;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+header button:hover{
+  transform:scale(1.05);
+}
+
+nav{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  padding:15px;
+  background:#020617;
+  position:sticky;
+  top:0;
+}
+
+nav a{
+  color:#cbd5f5;
+  text-decoration:none;
+  font-weight:500;
+  transition:0.3s;
+}
+
+nav a:hover{
+  color:#ec4899;
+}
+
+section{
+  max-width:1100px;
+  margin:auto;
+  padding:70px 20px;
+}
+
+h2{
+  font-size:28px;
+  margin-bottom:20px;
+  color:#ec4899;
+}
+
+.card{
+  background:#1e293b;
+  padding:30px;
+  border-radius:15px;
+  margin-top:20px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+.skills{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.skills span{
+  background:#334155;
+  padding:10px 18px;
+  border-radius:25px;
+  margin:6px;
+  font-size:14px;
+}
+
+.project{
+  margin-bottom:25px;
+}
+
+.project strong{
+  font-size:18px;
+  color:#fff;
+}
+
+.project p{
+  font-size:14px;
+  opacity:0.8;
+}
+
+.project a{
+  display:inline-block;
+  margin-top:5px;
+  color:#ec4899;
+  font-size:14px;
+  text-decoration:none;
+}
+
+.project a:hover{
+  text-decoration:underline;
+}
+
+footer{
+  text-align:center;
+  padding:25px;
+  background:#020617;
+  color:#94a3b8;
+}
+
+/* Responsive */
+@media(max-width:768px){
+  header h1{font-size:32px}
+  nav{flex-wrap:wrap}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Aishwarya</h1>
+<p>Aspiring Software Engineer | Problem Solver | CSE Student</p>
+<button onclick="window.location.href='resume.pdf'">Download Resume</button>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="card">
+<p>
+I am a 3rd-year Computer Science Engineering student focused on Data Structures, Software Development, and Machine Learning. I aim to build scalable, efficient applications and contribute to impactful real-world solutions in the tech industry.
+</p>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="card skills">
+<span>Java</span>
+<span>Python</span>
+<span>JavaScript</span>
+<span>HTML</span>
+<span>CSS</span>
+<span>DBMS</span>
+<span>Data Structures & Algorithms</span>
+<span>Git & GitHub</span>
+<span>Problem Solving</span>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="card">
+
+<div class="project">
+<strong>Student Portal</strong>
+<p>Developed a web application to manage student records, attendance, and results using structured database design.</p>
+<a href="#">View Project</a>
+</div>
+
+<div class="project">
+<strong>Library Management System</strong>
+<p>Built a system to track book inventory, issue/return operations, and user records efficiently.</p>
+<a href="#">View Project</a>
+</div>
+
+<div class="project">
+<strong>E-commerce UI</strong>
+<p>Designed a responsive and modern user interface for an online shopping platform focusing on UX.</p>
+<a href="#">View Project</a>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+<p>Email: aishwaryapaka@gmail.com</p>
+<p>GitHub: https://https://github.com/aish466-p</p>
+<p>LinkedIn: https://https://www.linkedin.com/in/aishwarya-paka-911729304/</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Aishwarya. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
